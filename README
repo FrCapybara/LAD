@@ -16,5 +16,13 @@ Rust 1.80 or newer.
 
 2. Setup
 
+To analyze data, you must generate a log file for testing ('access.log').
+
+Here are the commands to generate the logs and to execute the program :
+
+
 cd log-guardian-rs
+chmod +x generate_logs.sh
+./generate_logs.sh
 cargo run
+
